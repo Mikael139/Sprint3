@@ -1,0 +1,42 @@
+body {
+    background-color: #F8F0E5;
+}
+.title-cyber {
+    font-size: 2rem;
+}
+
+.title-cyber span.cyber {
+    color: #5D9C59;
+}
+
+.title-cyber span.crias {
+    color: #DF2E38;
+}
+
+.navbar {
+    padding: 0px ; 
+}
+
+.title-cyber {
+    font-size: 2rem; 
+    font-weight: bold; 
+}
+
+.home-section {
+    background-image: url('../IMG/elcabron.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 300px 0;
+    opacity: 0.8;
+}
+
+.home-text {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.btn-info {
+    font-size: 15px;
+}
