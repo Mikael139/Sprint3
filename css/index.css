@@ -1,15 +1,20 @@
 body {
     background-color: #F8F0E5;
 }
+
+header {
+    background-color: #F8F0E5;
+}
+
 .title-cyber {
     font-size: 2rem;
 }
 
-.title-cyber span.cyber {
+.title-cyber span.verde {
     color: #5D9C59;
 }
 
-.title-cyber span.crias {
+.title-cyber span.vermelho {
     color: #DF2E38;
 }
 
@@ -22,14 +27,26 @@ body {
     font-weight: bold; 
 }
 
+.nav-item {
+    font-size: 1.1rem; 
+    font-weight: bold; 
+    color: #5D9C59;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #DF2E38; /* Cor que será aplicada ao passar o mouse */
+    font-size: 1.2rem;
+}
+
 .home-section {
     background-image: url('../IMG/elcabron.jpg');
     background-size: cover;
     background-position: center;
     color: #fff;
     text-align: center;
-    padding: 240px 0;
+    padding: 230px 0;
     opacity: 0.8;
+    border-bottom: 2px solid #DF2E38;
 }
 
 .home-text {
@@ -39,4 +56,39 @@ body {
 
 .btn-info {
     font-size: 15px;
+}
+
+.galeriaImagens-section {
+    height: 900px;
+    border-bottom: 2px solid #DF2E38;
+}
+
+.sistemaArmas-section {
+    height: 900px;
+    border-bottom: 2px solid #DF2E38;
+}
+
+.hardware-section {
+    height: 900px;
+    border-bottom: 2px solid #DF2E38;
+}
+
+.sobreRobo-section {
+    height: 900px;
+    border-bottom: 2px solid #DF2E38;
+}
+
+.equipe-section {
+    height: 900px;
+    border-bottom: 2px solid #DF2E38;
+}
+
+.robocup-section {
+    height: 900px;
+    border-bottom: 2px solid #DF2E38;
+}
+
+.contato-section {
+    height: 900px;
+    border-bottom: 2px solid #DF2E38;
 }
