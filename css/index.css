@@ -1,3 +1,8 @@
+:root {
+    --color-green: #5D9C59;
+    --color-red: #DF2E38;
+}
+
 body {
     background-color: #F8F0E5;
 }
@@ -11,11 +16,11 @@ header {
 }
 
 .title-cyber span.verde {
-    color: #5D9C59;
+    color: var(--color-green);
 }
 
 .title-cyber span.vermelho {
-    color: #DF2E38;
+    color: var(--color-red);
 }
 
 .navbar {
@@ -30,11 +35,11 @@ header {
 .nav-item {
     font-size: 1.1rem; 
     font-weight: bold; 
-    color: #5D9C59;
+    color: var(--color-green);
 }
 
 .navbar-nav .nav-link:hover {
-    color: #DF2E38; /* Cor que será aplicada ao passar o mouse */
+    color: var(--color-red);
     font-size: 1.2rem;
 }
 
@@ -46,7 +51,7 @@ header {
     text-align: center;
     padding: 230px 0;
     opacity: 0.8;
-    border-bottom: 2px solid #DF2E38;
+    border-bottom: 2px solid var(--color-red);
 }
 
 .home-text {
@@ -58,37 +63,49 @@ header {
     font-size: 15px;
 }
 
-.galeriaImagens-section {
-    height: 900px;
-    border-bottom: 2px solid #DF2E38;
+.custom-card {
+    border: 2px solid var(--color-red);
+    border-radius: 15px;
 }
 
-.sistemaArmas-section {
-    height: 900px;
-    border-bottom: 2px solid #DF2E38;
+.custom-card img {
+    border-radius: 20px;
 }
 
-.hardware-section {
-    height: 900px;
-    border-bottom: 2px solid #DF2E38;
+.plataformas {
+    min-height: 20vh;
+    background-color: var(--color-green);
 }
 
-.sobreRobo-section {
-    height: 900px;
-    border-bottom: 2px solid #DF2E38;
+.redes i {
+    font-size: 40px;
+    margin: 10px 20px;
 }
 
-.equipe-section {
-    height: 900px;
-    border-bottom: 2px solid #DF2E38;
+.redes i:hover {
+    color: var(--color-red);
 }
 
-.robocup-section {
-    height: 900px;
-    border-bottom: 2px solid #DF2E38;
+textarea {
+    resize: none;
+    min-height: 20vh;
 }
 
-.contato-section {
-    height: 900px;
-    border-bottom: 2px solid #DF2E38;
+.footer {
+    background-color: var(--color-green);
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.names {
+    font-weight: bold;
+}
+
+.social-icons {
+    margin-top: 20px;
+}
+
+.social-icons i {
+    margin-right: 10px;
 }

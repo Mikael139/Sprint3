@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta nagit me="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>Sprint 3 - CyberCrias</title>
 
@@ -16,13 +16,13 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
 
     <!-- Chamada da CSS do BS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
 
-    <!-- chamada do nosso CSS -->
-    <link rel="stylesheet" href="./css/index.css">
-    <style>
-        
-    </style>
+    <!-- chamada do seu CSS -->
+    <link rel="stylesheet" href="css/index.css">
+
+
 </head>
 
 <body>
@@ -30,36 +30,36 @@
         <h1 class="display-5 title-cyber"><span class="verde">Cyber</span><span class="vermelho">Crias</span></h1>
     </header>
     <nav class="navbar navbar-expand-lg navbar-light">
-        <div class="container">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        <div class="container-fluid">
+            <button class="navbar-toggler order-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <i class="bi bi-filter-right"></i>
             </button>
             <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Home</a>
+                        <a class="nav-link" href="#home">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Galeria de Imagens</a>
+                        <a class="nav-link" href="#galeria">Galeria de Imagens</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Sistema de Armas</a>
+                        <a class="nav-link" href="#sistema">Sistema de Armas</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Hardware</a>
+                        <a class="nav-link" href="#hardware">Hardware</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Sobre o Robô</a>
+                        <a class="nav-link" href="#sobre">Sobre o Robô</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Equipe</a>
+                        <a class="nav-link" href="#equipe">Equipe</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Robocup/Next</a>
+                        <a class="nav-link" href="#robocup">Robocup/Next</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contato</a>
+                        <a class="nav-link" href="#contato">Contato</a>
                     </li>
                 </ul>
             </div>
@@ -67,118 +67,259 @@
     </nav>
 
     <!-- Seção Home-->
-    <section class="home-section">
+    <section class="home-section" id="home">
         <div class="container">
             <h1 class="display-3 mb-5">El Cabrón</h1>
             <p class="mb-5">Prepare-se para presenciar a força implacável de 'El Cabrón', <br> O imparável competidor do Robo Cup, que deixará uma trilha de destroços em <br> seu caminho rumo à glória!</p>
-            <a href="" class="btn btn-primary btn-info mt-5">Conheça-nos</a>
+            <a href="#sejasocio" class="btn btn-primary btn-info mt-5">Seja sócio</a>
         </div>
     </section>
 
-    <!-- Seção Galeria de Imagens-->
-    <section class="galeriaImagens-section">
-        <header class="container-fluid text-center py-4">
-            <h1 class="display-5 title-cyber"><span class="verde">Galeria de </span><span class="vermelho">Imagens</span></h1>
-        </header>
-
-        <div id="carouselExampleIndicators" class="carousel slide w-50 mx-auto border border-2 border-danger rounded-5" data-bs-ride="carousel">
-            <!-- Início indicadores para navegar nos slides do carousel -->
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
-                    aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-                    aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-                    aria-label="Slide 3"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
-                    aria-label="Slide 4"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
-                    aria-label="Slide 5"></button>
-            </div>
-            <!-- Fim indicadores para navegar nos slides do carousel -->
-    
-            <!-- Início slide carousel -->
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="IMG/IMG1.jpeg" class="d-block w-100 border border-2 rounded-5" alt="Categoria 1">
-                </div>
-                <div class="carousel-item">
-                    <img src="IMG/IMG2.jpeg" class="d-block w-100 border border-2 rounded-5" alt="Categoria 2">
-                </div>
-                <div class="carousel-item">
-                    <img src="IMG/IMG3.jpeg" class="d-block w-100 border border-2 rounded-5" alt="Categoria 3">
-                </div>
-                <div class="carousel-item">
-                    <img src="IMG/IMG4.jpeg" class="d-block w-100 border border-2 rounded-5" alt="Categoria 4">
-                </div>
-                <div class="carousel-item">
-                    <img src="IMG/IMG5.jpeg" class="d-block w-100 border border-2 rounded-5" alt="Categoria 5">
+    <!-- Seção Quem Somos-->
+    <main class="container">
+        <section class="galeriaImagens-section" id="galeria">
+            <header class="container-fluid text-center py-4">
+                <h1 class="display-5 title-cyber"><span class="verde">Quem </span><span class="vermelho">Somos?</span></h1>
+            </header>
+            <div class="container mt-5">
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="IMG/robocup_logo.png" class="img-fluid" style="border-radius: 15px;" alt="Imagem do El Cabron" class="img-fluid">
+                    </div>
+                    <div class="col-md-6">
+                        <p>
+                            <strong>
+                                Somos uma empresa iniciada na Robocup FIAP. <br><br> Somos uma empresa do mercado de brinquedos educacionais voltados para a robótica, nosso objetivo é levar o conhecimento de forma econômica porém eficaz, após uma série de estudos e pesquisas, encontramos a fórmula perfeita de levar o El Cabrón para todos os jovens amantes de tecnologia.
+                            </strong>
+                        </p>
+                    </div>
                 </div>
             </div>
-            <!-- Fim slide carousel -->
-    
-            <!-- Início anterior e próximo slide carousel -->
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-                data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-                data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
-            <!-- Fim anterior e próximo slide carousel -->
-    
-        </div>
-    </section>    
-    
-    <!-- Seção Sistema de armas-->
-    <section class="sistemaArmas-section">
-        <header class="container-fluid text-center py-4">
-            <h1 class="display-5 title-cyber"><span class="verde">Sistema de </span><span class="vermelho">Armas</span></h1>
-        </header>
-    </section>    
-    
-    <!-- Seção Hardware-->
-    <section class="hardware-section">
-        <header class="container-fluid text-center py-4">
-            <h1 class="display-5 title-cyber"><span class="verde">Hardware</span></h1>
-        </header>
-    </section>    
-    
-    <!-- Seção Sobre o robo-->
-    <section class="sobreRobo-section">
-        <header class="container-fluid text-center py-4">
-            <h1 class="display-5 title-cyber"><span class="verde">Sobre o </span><span class="vermelho">Robô</span></h1>
-        </header>
-    </section>    
-    
-    <!-- Seção Equipes-->
-    <section class="equipe-section">
-        <header class="container-fluid text-center py-4">
-            <h1 class="display-5 title-cyber"><span class="verde">Equipes</span></h1>
-        </header>
-    </section>    
-    
-    <!-- Seção RoboCup/NEXT-->
-    <section class="robocup-section">
-        <header class="container-fluid text-center py-4">
-            <h1 class="display-5 title-cyber"><span class="verde">RoboCup</span><span class="vermelho">/NEXT</span></h1>
-        </header>
-    </section>    
-    
-    <!-- Seção Contato-->
-    <section class="contato-section">
-        <header class="container-fluid text-center py-4">
-            <h1 class="display-5 title-cyber"><span class="verde">Contato</span></h1>
-        </header>
-    </section> 
+        </section>
 
-    <!-- Incluir o JS do Bootstrap -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
-        crossorigin="anonymous"></script>
+        <!-- Seção Galeria de Imagens-->
+        <section class="galeriaImagens-section" id="galeria">
+            <header class="container-fluid text-center py-4">
+                <h1 class="display-5 title-cyber"><span class="verde">Galeria de </span><span class="vermelho">Imagens</span></h1>
+            </header>
+
+            <div id="carouselExampleIndicators" class="carousel slide mx-auto border border-2 border-danger rounded-5" data-bs-ride="carousel">
+                <!-- Início indicadores para navegar nos slides do carrousel -->
+                <div class="carousel-indicators ">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                        aria-label="Slide 4"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+                        aria-label="Slide 5"></button>
+                </div>
+                <!-- Fim indicadores para navegar nos slides do carrousel -->
+            
+                <!-- Início slide carrousel -->
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="IMG/IMG1.jpeg" class="d-block w-100 border border-2 rounded-5" alt="Categoria 1">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="IMG/IMG2.jpeg" class="d-block w-100 border border-2 rounded-5" alt="Categoria 2">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="IMG/IMG3.jpeg" class="d-block w-100 border border-2 rounded-5" alt="Categoria 3">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="IMG/IMG4.jpeg" class="d-block w-100 border border-2 rounded-5" alt="Categoria 4">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="IMG/IMG5.jpeg" class="d-block w-100 border border-2 rounded-5" alt="Categoria 5">
+                    </div>
+                </div>
+                <!-- Fim slide carrousel -->
+            
+                <!-- Início anterior e próximo slide carrousel -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+                <!-- Fim anterior e próximo slide carrousel -->
+            
+            </div>
+        </section>    
+
+        <!-- Seção Sistema de armas-->
+        <section class="sistemaArmas-section" id="sistema">
+            <header class="container-fluid text-center py-4">
+                <h1 class="display-5 title-cyber"><span class="verde">Sistema de </span><span class="vermelho">Armas</span></h1>
+            </header>
+            <div class="container mt-4">
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="IMG/arma.png" class="img-fluid mb-4" alt="Imagem 1">
+                        <img src="IMG/arma2.png" class="img-fluid" alt="Imagem 2">
+                    </div>
+                    <div class="col-md-6">
+                        <strong>
+                            <p>
+                                • A arma será um par de braços mecânicos simples que poderá ser estendido até os 45 centímetros de raio máximo permitido, conforme está descrito nas regras do jogo. Como a arma será apontada somente em uma direção, ela será ajustada conforme às regras. Também será possível ajustar o comprimento máximo dos braços caso eles estejam compridos demais, infringindo as regras, ou curta demais.<br><br>
+                                • Para ativar a arma, a uma a arma estará conectada em um servo motor, com uma das extremidades fixada no lateral do robô enquanto a outra irá estará livre para que ocorra movimentação conforme a rotação do servomotor. A movimentação da base conectada a este motor causará a extensão do braço mecânico.<br><br>
+                                • Para estourar o balão do adversário, pensamos em adicionar nas pontas dos braços mecânicos uma bola de isopor com raio de 50mm com agulhas/farpas coladas nela.
+                            </p>
+                        </strong>
+                    </div>
+                </div>
+            </div>
+        </section>    
+
+        <!-- Seção Hardware-->
+        <section class="hardware-section" id="hardware">
+            <header class="container-fluid text-center py-4">
+                <h1 class="display-5 title-cyber"><span class="verde">Hardware</span></h1>
+            </header>
+            <section class="mb-4">
+                <h3 class="text-blue display-6 mb-4">Principais componentes: </h3>
+                <div class="container">
+                    <div class="row">
+                        <!-- 1 card -->
+                        <div class="col-md-4 mb-3">
+                            <div class="card custom-card">
+                                <img src="IMG/arduino.webp" class="card-img-top" alt="Imagem arduino mega">
+                                <div class="card-body">
+                                    <h5 class="card-title">Arduino mega com/ shield de motor</h5>
+                                    <p class="card-text">Serve como o cérebro e o Sistema de controle central do robô, facilita a integração e a interação com os componentes e sensores utilizados.</p>
+                                </div>
+                            </div>
+                        </div>
+                    
+                        <!-- 2 card -->
+                        <div class="col-md-4 mb-3">
+                            <div class="card custom-card">
+                                <img src="IMG/SERVOMOTOR.jpg" class="card-img-top" alt="Imagem do servo motor">
+                                <div class="card-body">
+                                    <h5 class="card-title">Servo motores - MG995</h5>
+                                    <p class="card-text">Responsável por movimentar os braços da arma. </p><br>
+                                </div>
+                            </div>
+                        </div>
+                    
+                        <!-- 3 card -->
+                        <div class="col-md-4 mb-3">
+                            <div class="card custom-card">
+                                <img src="IMG/sensor.webp" class="card-img-top" alt="Imagem Sensor de fim de curso">
+                                <div class="card-body">
+                                    <h5 class="card-title">Sensores de fim de curso</h5>
+                                    <p class="card-text">Quando acionados, realizam uma ativação dos servos motores (armas).</p>
+                                </div>
+                            </div>
+                        </div>
+                    
+                        <!-- 4 card -->
+                        <div class="col-md-4 mb-3">
+                            <div class="card custom-card">
+                                <img src="IMG/motoresDC.webp" class="card-img-top" alt="Imagem motor DC">
+                                <div class="card-body">
+                                    <h5 class="card-title">Motores DC - com redução</h5>
+                                    <p class="card-text">Conectados diretamente no Arduino, recebe os comandos do Bluetooth e movimentam a estrutura do robô.</p>
+                                </div>
+                            </div>
+                        </div>
+                    
+                        <!-- 5 card -->
+                        <div class="col-md-4 mb-3">
+                            <div class="card custom-card">
+                                <img src="IMG/RGB.jpg" class="card-img-top" alt="Imagem LED RGB">
+                                <div class="card-body">
+                                    <h5 class="card-title">LED RGB - Endereçável</h5>
+                                    <p class="card-text">Conectados na protoboard mostra o estado do robô (módulo ataque, ativado, inicializando, e etc.)</p><br>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+        <!-- Seção Sobre o robo-->
+        <section class="sobreRobo-section" id="sobre">
+            <header class="container-fluid text-center py-4">
+                <h1 class="display-5 title-cyber"><span class="verde">Sobre o </span><span class="vermelho">Robô</span></h1>
+            </header>
+            <div class="container mt-5">
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="IMG/IMG5.jpeg" class="img-fluid" style="border-radius: 15px;" alt="Imagem do El Cabron" class="img-fluid">
+                    </div>
+                    <div class="col-md-6">
+                        <p>
+                            <strong>
+                                <br>O El Cabron é um robô de combate desenvolvido por alunos do curso de Sistemas de Informação (SIR1) na FIAP, com o objetivo de participar do evento RoboCup. <br><br>
+                                Ele é construído com um Arduino MEGA 2560 e outros componentes eletrônicos, como o transistor BD 135 e resistores de filme de carbono. <br><br>
+                                 A programação em linguagem C, fornecida pela faculdade, junto com um aplicativo específico, permite que o robô execute movimentos estratégicos, reconheça adversários e tome decisões rápidas durante as lutas. Equipado com uma arma para atacar balões rivais, o El Cabron busca vencer todos os desafios que enfrenta.
+                            </strong>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>    
+
+        <!-- Seção Equipes-->
+        <section class="equipe-section" id="equipe">
+            <header class="container-fluid text-center py-4">
+                <h1 class="display-5 title-cyber"><span class="verde">Equipe</span></h1>
+            </header>
+        </section>    
+
+        <!-- Seção RoboCup/NEXT-->
+        <section class="robocup-section" id="robocup">
+            <header class="container-fluid text-center py-4">
+                <h1 class="display-5 title-cyber"><span class="verde">RoboCup</span><span class="vermelho">/NEXT</span></h1>
+            </header>
+        </section>    
+
+        <!-- Seção Contato-->
+        <section class="contato-section" id="contato">
+            <header class="container-fluid text-center py-4">
+                <h1 class="display-5 title-cyber"><span class="verde">Contato</span></h1>
+            </header>
+        </section>
+        </main> 
+
+        <footer class="footer">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-6 text-md-left">
+                        <p class="names">Diogo Makoto Mano</p>
+                        <p class="names">Gustavo Fleury</p>
+                        <p class="names">Marco Aúrelio</p>
+                        <p class="names">Nilton Mikael Palmeira da Silva RM: 552442</p>
+                    </div>
+                    <div class="col-md-6 text-center">
+                        <a href="https://www.fiap.com.br" target="_blank">
+                            <img src="IMG/fiap.png" width="250px" height="100px" alt="Imagem" class="img-fluid">
+                        </a>
+                    </div>
+                </div>
+                <div class="row social-icons justify-content-center">
+                    <div class="col-md-12 redes">
+                        <h2>Redes Sociais</h2>
+                        <i class="bi bi-instagram"></i>
+                        <a href="https://github.com/Mikael139/Sprint3" target="_blank"><i class="bi bi-github"></i></a>
+                        <i class="bi bi-facebook"></i>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Incluir o JS do Bootstrap -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>
 
 </html>
