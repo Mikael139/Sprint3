@@ -108,7 +108,14 @@ textarea {
 }
 
 .img-equipe {
-    width: 15vw;
-    height: 25vh;
     border: 2px solid var(--color-red);
+}
+
+.custom-container {
+    margin-top: 20px;
+}
+
+.socio-section {
+    padding: 20px;
+    border-radius: 10px;
 }

@@ -19,65 +19,71 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
 
-    <!-- chamada do seu CSS -->
+    <!-- chamada do nosso CSS -->
     <link rel="stylesheet" href="css/index.css">
 
-
+    <!-- chamada do nosso JavaScript -->
+    <script src="js/index.js"></script>
 </head>
 
 <body>
-    <header class="container-fluid text-center py-4">
-        <h1 class="display-5 title-cyber"><span class="verde">Cyber</span><span class="vermelho">Crias</span></h1>
-    </header>
-    <nav class="navbar navbar-expand-lg navbar-light">
-        <div class="container-fluid">
-            <button class="navbar-toggler order-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <i class="bi bi-filter-right"></i>
-            </button>
-            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#home">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#galeria">Galeria de Imagens</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#sistema">Sistema de Armas</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#hardware">Hardware</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#sobre">Sobre o Robô</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#equipe">Equipe</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#robocup">Robocup/Next</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contato">Contato</a>
-                    </li>
-                </ul>
+    <div class="fixed-top bg-light">
+        <header class="container-fluid text-center py-4">
+            <h1 class="display-5 title-cyber"><span class="verde">Cyber</span><span class="vermelho">Crias</span></h1>
+        </header>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+                <button class="navbar-toggler order-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="bi bi-filter-right"></i>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#quemsomos">Quem somos?</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#galeria">Galeria de Imagens</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#sistema">Sistema de Armas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#hardware">Hardware</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#sobre">Sobre o Robô</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#equipe">Equipe</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#robocup">Robocup/Next</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contato">Contato/Seja Sócio</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-        </div>
-    </nav>
+        </nav>
+    </div>
 
     <!-- Seção Home-->
     <section class="home-section" id="home">
         <div class="container">
             <h1 class="display-3 mb-5">El Cabrón</h1>
             <p class="mb-5">Prepare-se para presenciar a força implacável de 'El Cabrón', <br> O imparável competidor do Robo Cup, que deixará uma trilha de destroços em <br> seu caminho rumo à glória!</p>
-            <a href="#sejasocio" class="btn btn-primary btn-info mt-5">Seja sócio</a>
+            <a href="#contato" class="btn btn-primary btn-info mt-5">Seja Sócio</a>
         </div>
     </section>
 
     <!-- Seção Quem Somos-->
     <main class="container">
-        <section class="galeriaImagens-section" id="galeria">
+        <section class="galeriaImagens-section" id="quemsomos">
             <header class="container-fluid text-center py-4">
                 <h1 class="display-5 title-cyber"><span class="verde">Quem </span><span class="vermelho">Somos?</span></h1>
             </header>
@@ -89,7 +95,7 @@
                     <div class="col-md-6">
                         <p>
                             <strong>
-                                Somos uma empresa iniciada na Robocup FIAP. <br><br> Somos uma empresa do mercado de brinquedos educacionais voltados para a robótica, nosso objetivo é levar o conhecimento de forma econômica porém eficaz, após uma série de estudos e pesquisas, encontramos a fórmula perfeita de levar o El Cabrón para todos os jovens amantes de tecnologia.
+                                Nossa startup é uma inovadora empresa de brinquedos educacionais focada em robótica, nascida na RoboCup FIAP. Oferecemos experiências educacionais únicas, tornando a tecnologia acessível e empolgante para jovens de todas as origens. Com o El Cabrón, um robô de combate desenvolvido com tecnologia de ponta, unimos aprendizado e diversão. Nosso compromisso é inspirar mentes curiosas, promovendo a inovação e a criatividade. Ao investir em nós, você está impulsionando não apenas um negócio, mas um movimento educacional, transformando sonhos em oportunidades para as gerações futuras.
                             </strong>
                         </p>
                     </div>
@@ -104,7 +110,7 @@
             </header>
 
             <div id="carouselExampleIndicators" class="carousel slide mx-auto border border-2 border-danger rounded-5" data-bs-ride="carousel">
-                <!-- Início indicadores para navegar nos slides do carrousel -->
+                <!-- Indicadores para navegar nos slides da galeria -->
                 <div class="carousel-indicators ">
                     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
                         aria-current="true" aria-label="Slide 1"></button>
@@ -117,9 +123,8 @@
                     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
                         aria-label="Slide 5"></button>
                 </div>
-                <!-- Fim indicadores para navegar nos slides do carrousel -->
             
-                <!-- Início slide carrousel -->
+                <!-- Início galeria de imagens -->
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <img src="IMG/IMG1.jpeg" class="d-block w-100 border border-2 rounded-5" alt="Categoria 1">
@@ -137,9 +142,8 @@
                         <img src="IMG/IMG5.jpeg" class="d-block w-100 border border-2 rounded-5" alt="Categoria 5">
                     </div>
                 </div>
-                <!-- Fim slide carrousel -->
             
-                <!-- Início anterior e próximo slide carrousel -->
+                <!-- Setas anterior e próximo slide-->
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
                     data-bs-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -150,8 +154,6 @@
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Next</span>
                 </button>
-                <!-- Fim anterior e próximo slide carrousel -->
-            
             </div>
         </section>    
 
@@ -282,18 +284,18 @@
                     </div>
                     <div class="col-md-4">
                         <h5 class="border-bottom border-danger">Diogo Makoto Mano</h5>
-                        <p>E-mail: makoto.dmm@gmail.com</p>
-                        <p>Cel: (11) 96640-8065</p>
-                        <p>RM: 98446</p>
+                        <li>Email: makoto.dmm@gmail.com</li>
+                        <li>Cel:(11) 96640-8065</li>
+                        <li>RM: 98446</li>
                     </div>
                     <div class="col-md-2">
                         <img class="img-fluid img-equipe rounded-5" src="./IMG/gustavofoto.jpeg" alt="Foto Gustavo">            
                     </div>
                     <div class="col-md-4">
                         <h5 class="border-bottom border-success">Gustavo Fleury</h5>
-                        <p>E-mail: gugasilvafleury@gmail.com</p>
-                        <p>Cel: (11) 94348-7904</p>
-                        <p>RM: 99872</p>
+                        <li>E-mail: gugasilvafleury@gmail.com</li>
+                        <li>Cel: (11) 94348-7904</li>
+                        <li>RM: 99872</li>
                     </div>
                 </div>
                 <div class="row my-5">
@@ -302,18 +304,18 @@
                     </div>
                     <div class="col-md-4">
                         <h5 class="border-bottom border-success">Marco Aurélio</h5>
-                        <p>E-mail: maarco.aurelio15@gmail.com</p>
-                        <p>Cel: (11) 95877-8971</p>
-                        <p>RM: 551444</p>
+                        <li>E-mail: maarco.aurelio15@gmail.com</li>
+                        <li>Cel: (11) 95877-8971</li>
+                        <li>RM: 551444</li>
                     </div>
                     <div class="col-md-2">
                         <img class="img-fluid img-equipe rounded-5" src="./IMG/mikaelfoto.jpeg" alt="Foto Mikael">            
                     </div>
                     <div class="col-md-4">
                         <h5 class="border-bottom border-danger">Nilton Mikael Palmeira</h5>
-                        <p>E-mail: mikael.palmeira.111@gmail.com</p>
-                        <p>Cel: (11) 99702-9613</p>
-                        <p>RM: 552442</p>
+                        <li>E-mail: mikael.palmeira.111@gmail.com</li>
+                        <li>Cel: (11) 99702-9613</li>
+                        <li>RM: 552442</li>
                     </div>
                 </div>
              </div>
@@ -332,14 +334,16 @@
                     </div>
 
                     <div class="col-md-6">
-                        <p><strong>
-                            Competição desenvolvida pela FIAP entre todas as turmas do Cruso de Sistemas de Informação, a RoboCup é uma competição idealizada para desenvolver, especialmente, habilidades nas matérias de Arquitetura e Organização de Computadores e de Sensores e Cicuitos Digitais. <br><br>
-                            Contém um formato inicialmente de fase de grupos e posteriormente mata-mata, modelo semelhante ao da Copa do Mundo (futebol). <br><br>
-                            Para triunfar nas batalhas, é necessário destruir o balão do adversário, ao mesmo tempo em que se protege o próprio balão. Exige-se grande concentração, estratégia e equilíbrio nas ações para chegar longe no torneio. <br><br>
+                        <p>
+                            <strong>
+                                Competição desenvolvida pela FIAP entre todas as turmas do Cruso de Sistemas de Informação, a RoboCup é uma competição idealizada para desenvolver, especialmente, habilidades nas matérias de Arquitetura e Organização de Computadores e de Sensores e Cicuitos Digitais. <br><br>
+                                Contém um formato inicialmente de fase de grupos e posteriormente mata-mata, modelo semelhante ao da Copa do Mundo (futebol). <br><br>
+                                Para triunfar nas batalhas, é necessário destruir o balão do adversário, ao mesmo tempo em que se protege o próprio balão. Exige-se grande concentração, estratégia e equilíbrio nas ações para chegar longe no torneio. <br><br>
 
-                            A fase mata-mata ocorre no Next, um grande evento realizado pela faculdade, que reúne diversas outras competições de variados cursos contidos na Instituição. Contando, inclusive, com várias atrações como apresentações, shows além de muito conteúdo voltado para tecnologia e inovação. 
+                                A fase mata-mata ocorre no Next, um grande evento realizado pela faculdade, que reúne diversas outras competições de variados cursos contidos na Instituição. Contando, inclusive, com várias atrações como apresentações, shows além de muito conteúdo voltado para tecnologia e inovação. 
 
-                        </strong></p>
+                            </strong>
+                        </p>
                     </div>
                 </div>
             </div>
@@ -348,39 +352,81 @@
         <!-- Seção Contato-->
         <section class="contato-section" id="contato">
             <header class="container-fluid text-center py-4">
-                <h1 class="display-5 title-cyber"><span class="verde">Contato</span></h1>
+                <h1 class="display-5 title-cyber"><span class="verde">Contato</span><span class="vermelho"> / Seja sócio</span></h1>
             </header>
-        </section>
-    </main> 
-
-        <footer class="footer">
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-md-6 text-md-left">
-                        <p class="names">Diogo Makoto Mano</p>
-                        <p class="names">Gustavo Silva Fleury</p>
-                        <p class="names">Marco Aúrelio Souza Couto</p>
-                        <p class="names">Nilton Mikael Palmeira da Silva</p>
+            <div class="container custom-container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="socio-section">
+                            <h3>Junte-se a Nós na criação do El cabrón!</h3>
+                            <p></p>
+                            <p><strong>Benefícios de se tornar um sócio:</strong></p>
+                            <ul>
+                                <li>Inovação Tecnológica e Educação Acessível.</li>
+                                <li>Mercado em Crescimento e Demanda Crescente.</li>
+                                <li>Impacto Social e Futuro Sustentável.</li>
+                            </ul>
+                        </div>
                     </div>
-                    <div class="col-md-6 text-center">
-                        <a href="https://www.fiap.com.br" target="_blank">
-                            <img src="IMG/fiap.png" width="250px" height="100px" alt="Imagem" class="img-fluid">
-                        </a>
-                    </div>
-                </div>
-                <div class="row social-icons justify-content-center">
-                    <div class="col-md-12 redes">
-                        <h2>Redes Sociais</h2>
-                        <i class="bi bi-instagram"></i>
-                        <a href="https://github.com/Mikael139/Sprint3" target="_blank"><i class="bi bi-github"></i></a>
-                        <i class="bi bi-facebook"></i>
+                    <div class="col-md-6">
+                        <h3>Interessado em se tornar um Sócio?</h3>
+                        <h5>Contate-nos <i class="bi bi-arrow-down-circle"></i></h5>
+                        <form>
+                            <div class="mb-3">
+                                <label for="nome" class="form-label">Nome:</label>
+                                <input type="text" class="form-control" id="nome" placeholder="Nome">
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Email:</label>
+                                <input type="email" class="form-control" id="email" placeholder="seuemail@email.com">
+                            </div>
+                            <div class="mb-3">
+                                <label for="telefone" class="form-label">Telefone:</label>
+                                <input type="tel" class="form-control" id="telefone" placeholder="(XX) XXXX-XXXX">
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensagem" class="form-label">Mensagem:</label>
+                                <textarea class="form-control" id="mensagem" rows="4" placeholder="Digite aqui a sua mensagem..."></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary mb-3">Enviar</button>
+                        </form>
                     </div>
                 </div>
             </div>
-        </footer>
+        </section>
+    </main> 
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6 text-md-left">
+                    <p class="names">Diogo Makoto Mano</p>
+                    <p class="names">Gustavo Silva Fleury</p>
+                    <p class="names">Marco Aúrelio Souza Couto</p>
+                    <p class="names">Nilton Mikael Palmeira da Silva</p>
+                </div>
+                <div class="col-md-6 text-center">
+                    <a href="https://www.fiap.com.br" target="_blank">
+                        <img src="IMG/fiap.png" width="250px" height="100px" alt="Imagem" class="img-fluid">
+                    </a>
+                </div>
+            </div>
+            <div class="row social-icons justify-content-center">
+                <div class="col-md-12 redes">
+                    <h2>Redes Sociais</h2>
+                    <i class="bi bi-instagram"></i>
+                    <a href="https://github.com/Mikael139/Sprint3" target="_blank"><i class="bi bi-github"></i></a>
+                    <i class="bi bi-facebook"></i>
+                </div>
+            </div>
+        </div>
+    </footer>
 
         <!-- Incluir o JS do Bootstrap -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-</body>
+         <!-- Incluindo Bootstrap JS e dependências para funcionalidades de formulário -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bs-custom-file-input/dist/bs-custom-file-input.min.js"></script>
+    </body>
 
 </html>
