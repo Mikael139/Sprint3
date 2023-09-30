@@ -7,9 +7,6 @@ body {
     background-color: #F8F0E5;
 }
 
-header {
-    background-color: #F8F0E5;
-}
 
 .title-cyber {
     font-size: 2rem;
@@ -108,4 +105,10 @@ textarea {
 
 .social-icons i {
     margin-right: 10px;
+}
+
+.img-equipe {
+    width: 15vw;
+    height: 25vh;
+    border: 2px solid var(--color-red);
 }
