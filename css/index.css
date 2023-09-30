@@ -7,9 +7,6 @@ body {
     background-color: #F8F0E5;
 }
 
-header {
-    background-color: #F8F0E5;
-}
 
 .title-cyber {
     font-size: 2rem;
@@ -110,12 +107,16 @@ textarea {
     margin-right: 10px;
 }
 
-.custom-form {
-    background-color: #ffffff;
-    width: 50%;
-    margin-left: auto;
-    margin-right: 0;
-    padding: 30px;
+.img-equipe {
+
+    border: 2px solid var(--color-red);
+}
+
+.custom-container {
+    margin-top: 20px;
+}
+
+.socio-section {
+    padding: 20px;
     border-radius: 10px;
-    margin-top: 50px;
 }
