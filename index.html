@@ -19,10 +19,11 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
 
-    <!-- chamada do seu CSS -->
+    <!-- chamada do nosso CSS -->
     <link rel="stylesheet" href="css/index.css">
 
-
+    <!-- chamada do nosso JavaScript -->
+    <script src="js/index.js"></script>
 </head>
 
 <body>
@@ -39,6 +40,9 @@
                 <ul class="navbar-nav">
                     <li class="nav-item">
                         <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Quem somos?</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#galeria">Galeria de Imagens</a>
@@ -290,14 +294,16 @@
                     </div>
 
                     <div class="col-md-6">
-                        <p><strong>
-                            Competição desenvolvida pela FIAP entre todas as turmas do Cruso de Sistemas de Informação, a RoboCup é uma competição idealizada para desenvolver, especialmente, habilidades nas matérias de Arquitetura e Organização de Computadores e de Sensores e Cicuitos Digitais. <br><br>
-                            Contém um formato inicialmente de fase de grupos e posteriormente mata-mata, modelo semelhante ao da Copa do Mundo (futebol). <br><br>
-                            Para triunfar nas batalhas, é necessário destruir o balão do adversário, ao mesmo tempo em que se protege o próprio balão. Exige-se grande concentração, estratégia e equilíbrio nas ações para chegar longe no torneio. <br><br>
+                        <p>
+                            <strong>
+                                Competição desenvolvida pela FIAP entre todas as turmas do Cruso de Sistemas de Informação, a RoboCup é uma competição idealizada para desenvolver, especialmente, habilidades nas matérias de Arquitetura e Organização de Computadores e de Sensores e Cicuitos Digitais. <br><br>
+                                Contém um formato inicialmente de fase de grupos e posteriormente mata-mata, modelo semelhante ao da Copa do Mundo (futebol). <br><br>
+                                Para triunfar nas batalhas, é necessário destruir o balão do adversário, ao mesmo tempo em que se protege o próprio balão. Exige-se grande concentração, estratégia e equilíbrio nas ações para chegar longe no torneio. <br><br>
 
-                            A fase mata-mata ocorre no Next, um grande evento realizado pela faculdade, que reúne diversas outras competições de variados cursos contidos na Instituição. Contando, inclusive, com várias atrações como apresentações, shows além de muito conteúdo voltado para tecnologia e inovação. 
+                                A fase mata-mata ocorre no Next, um grande evento realizado pela faculdade, que reúne diversas outras competições de variados cursos contidos na Instituição. Contando, inclusive, com várias atrações como apresentações, shows além de muito conteúdo voltado para tecnologia e inovação. 
 
-                        </strong></p>
+                            </strong>
+                        </p>
                     </div>
                 </div>
             </div>
@@ -308,6 +314,28 @@
             <header class="container-fluid text-center py-4">
                 <h1 class="display-5 title-cyber"><span class="verde">Contato</span></h1>
             </header>
+            <div class="container custom-form">
+                <h1 class="mb-4">Formulário de Contato</h1>
+                <form id="contact-form">
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Nome</label>
+                        <input type="text" class="form-control" id="name" name="name" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="email" name="email" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="phone" class="form-label">Telefone</label>
+                        <input type="tel" class="form-control" id="phone" name="phone" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="message" class="form-label">Mensagem</label>
+                        <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                </form>
+            </div>
         </section>
         </main> 
 
@@ -339,6 +367,9 @@
 
         <!-- Incluir o JS do Bootstrap -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-</body>
+         <!-- Incluindo Bootstrap JS e dependências para funcionalidades de formulário -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bs-custom-file-input/dist/bs-custom-file-input.min.js"></script>
+    </body>
 
 </html>
